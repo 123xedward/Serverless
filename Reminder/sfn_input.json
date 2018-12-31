@@ -1,0 +1,7 @@
+{
+    "waitSeconds": 10,
+   "preference": "both",
+    "message": "Hello! You rock, but remember you need to do something",
+    "email": "email@example.com",
+    "phone": "+521"
+}
