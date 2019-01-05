@@ -37,7 +37,7 @@
   
       "TextReminder": {
         "Type" : "Task",
-        "Resource": "TEXT_REMINDER_ARN",
+        "Resource": "arn:aws:states:::batch:submitJob",
         "Next": "NextState"
       },
       
@@ -49,7 +49,7 @@
             "States": {
               "EmailReminderPar": {
                 "Type" : "Task",
-                "Resource": "EMAIL_REMINDER_ARN",
+                "Resource": "arn:aws:states:::batch:submitJob",
                 "End": true
               }
             }
