@@ -19,7 +19,7 @@ function clearNotifications() {
     // Clear any exisiting notifications in the browser notifications divs
     errorDiv.textContent = '';
     resultsDiv.textContent = '';
-    successDiv.textContent = '';
+    successDiv.textContent = ''; 
 }
 
 // Add listeners for each button that make the API request
